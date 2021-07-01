@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "sourceMap": true,
+    "strict": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.collection"
+    ],
+    "downlevelIteration": true
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}
